@@ -1,0 +1,22 @@
+{
+	"name": "portfolio_website",
+	"version": "1.0.0",
+	"description": "a sample portlio website",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AGusev/portfolio_1.git"
+	},
+	"author": "Aleksandr Gusev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AGusev/portfolio_1/issues"
+	},
+	"homepage": "https://github.com/AGusev/portfolio_1#readme",
+	"dependencies": {
+		"node-sass": "^5.0.0"
+	}
+}
