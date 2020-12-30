@@ -92,4 +92,24 @@
 	.projects {
 		grid-template-columns: 1fr;
 	}
+
+	.boxes {
+		div {
+			font-size: 1.5rem;
+			border: 3px #fff solid;
+			padding: 1.5rem 0.5rem;
+			margin-bottom: 2rem;
+			@include easeOut;
+
+			&:hover {
+				padding: 0.5 rem 0 rem;
+				background: $secondary-color;
+				color: set-text-color($secondary-color);
+
+				span {
+					color: set-text-color($secondary-color);
+				}
+			}
+		}
+	}
 }
