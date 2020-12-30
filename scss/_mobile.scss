@@ -95,14 +95,14 @@
 
 	.boxes {
 		div {
-			font-size: 1.5rem;
+			font-size: 1rem;
 			border: 3px #fff solid;
 			padding: 1.5rem 0.5rem;
 			margin-bottom: 2rem;
 			@include easeOut;
 
 			&:hover {
-				padding: 0.5 rem 0 rem;
+				padding: 0.5rem 0.5rem;
 				background: $secondary-color;
 				color: set-text-color($secondary-color);
 
